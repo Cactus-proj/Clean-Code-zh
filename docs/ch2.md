@@ -417,9 +417,10 @@ If names are too clever, they will be memorable only to people who share the aut
 
 ![](figures/ch2/2_3fig_martin.jpg)
 
-Cuteness in code often appears in the form of colloquialisms or slang. For example, don’t use the name whack() to mean kill(). Don’t tell little culture-dependent jokes like eatMyShorts() to mean abort().
+Cuteness in code often appears in the form of colloquialisms or slang. For example, don’t use the name `whack()` to mean `kill()`. Don’t tell little culture-dependent jokes like `eatMyShorts()` to mean `abort()`.
 
-> 扮可爱的做法在代码中经常体现为使用俗话或俚语。例如，别用 whack[ ](13)来表示 kill( )。别用 eatMyShorts[ ](14)这类与文化紧密相关的笑话来表示 abort( )。
+> 扮可爱的做法在代码中经常体现为使用俗话或俚语。例如，别用 `whack()` 来表示 `kill()`。
+别用 `eatMyShorts()` 这类与文化紧密相关的笑话来表示 `abort()`。
 
 Say what you mean. Mean what you say.
 
