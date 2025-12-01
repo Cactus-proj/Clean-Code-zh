@@ -1,5 +1,7 @@
 # 《代码整洁之道》中文翻译
 
+[![CI](https://github.com/Cactus-proj/Clean-Code-zh/actions/workflows/CI.yml/badge.svg)](https://github.com/Cactus-proj/Clean-Code-zh/actions/workflows/CI.yml)
+
 在线阅读： <https://cactus-proj.github.io/Clean-Code-zh/>
 
 
