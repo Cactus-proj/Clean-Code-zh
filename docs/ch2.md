@@ -381,7 +381,7 @@ Methods should have verb or verb phrase names like postPayment, deletePage, or s
 
 > 方法名应当是动词或动词短语，如 postPayment、deletePage 或 save。属性访问器、修改器和断言应该根据其值命名，并依 Javabean 标准[10]加上 get、set 和 is 前缀。
 
-4. http://java.sun.com/products/javabeans/docs/spec.html
+4. <http://java.sun.com/products/javabeans/docs/spec.html>
 
 ```java
 string name = employee.getName();
@@ -419,7 +419,7 @@ If names are too clever, they will be memorable only to people who share the aut
 
 Cuteness in code often appears in the form of colloquialisms or slang. For example, don’t use the name whack() to mean kill(). Don’t tell little culture-dependent jokes like eatMyShorts() to mean abort().
 
-> 扮可爱的做法在代码中经常体现为使用俗话或俚语。例如，别用 whack( )[13]来表示 kill( )。别用 eatMyShorts( )[14]这类与文化紧密相关的笑话来表示 abort( )。
+> 扮可爱的做法在代码中经常体现为使用俗话或俚语。例如，别用 whack[ ](13)来表示 kill( )。别用 eatMyShorts[ ](14)这类与文化紧密相关的笑话来表示 abort( )。
 
 Say what you mean. Mean what you say.
 

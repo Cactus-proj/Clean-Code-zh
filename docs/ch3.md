@@ -10,7 +10,7 @@ Consider the code in Listing 3-1. It’s hard to find a long function in FitNess
 
 > 请看代码清单 3-1。在 FitNesse[1]中，很难找到长函数，不过我还是搜寻到一个。它不光长，而且代码也很复杂，有大量字符串、怪异而不显见的数据类型和 API。花 3 分钟时间，看能读懂多少？
 
-1. An open-source testing tool. www.fitnesse.org
+1. An open-source testing tool. <www.fitnesse.org>
 
 Listing 3-1 HtmlUtil.java (FitNesse 20070619)
 
@@ -117,7 +117,7 @@ Unless you are a student of FitNesse, you probably don’t understand all the de
 
 > 除非你正在研究 FitNesse，否则就理解不了所有细节。不过，你大概能明白，该函数包含把一些设置和拆解页放入一个测试页面，再渲染为 HTML 的操作。如果你熟悉 JUnit[2]，或许会想到，该函数归属于某个基于 Web 的测试框架。而且，这当然没错。从代码清单 3-2 中获得信息很容易，而代码清单 3-1 则晦涩难明。
 
-2. An open-source unit-testing tool for Java. www.junit.org
+2. An open-source unit-testing tool for Java. <www.junit.org>
 
 So what is it that makes a function like Listing 3-2 easy to read and understand? How can we make a function communicate its intent? What attributes can we give our functions that will allow a casual reader to intuit the kind of program they live inside?
 
@@ -303,13 +303,13 @@ There are several problems with this function. First, it’s large, and when new
 
 > 该函数有好几个问题。首先，它太长，当出现新的雇员类型时，还会变得更长。其次，它明显做了不止一件事。第三，它违反了单一权责原则（Single Responsibility Principle[7], SRP），因为有好几个修改它的理由。第四，它违反了开放闭合原则（Open Closed Principle[8],OCP），因为每当添加新类型时，就必须修改之。不过，该函数最麻烦的可能是到处皆有类似结构的函数。例如，可能会有
 
-7. a. http://en.wikipedia.org/wiki/Single_responsibility_principle
+7. a. <http://en.wikipedia.org/wiki/Single_responsibility_principle>
 
-b. http://www.objectmentor.com/resources/articles/srp.pdf
+b. <http://www.objectmentor.com/resources/articles/srp.pdf>
 
-8. a. http://en.wikipedia.org/wiki/Open/closed_principle
+8. a. <http://en.wikipedia.org/wiki/Open/closed_principle>
 
-b. http://www.objectmentor.com/resources/articles/ocp.pdf
+b. <http://www.objectmentor.com/resources/articles/ocp.pdf>
 
 ```java
 isPayday(Employee e, Date date),
@@ -443,7 +443,7 @@ In Listing 3-7 we had no choice because the callers were already passing that fl
 
 A function with two arguments is harder to understand than a monadic function. For example, writeField(name) is easier to understand than writeField(output-Stream, name).10 Though the meaning of both is clear, the first glides past the eye, easily depositing its meaning. The second requires a short pause until we learn to ignore the first parameter. And that, of course, eventually results in problems because we should never ignore any part of code. The parts we ignore are where the bugs will hide.
 
-> 有两个参数的函数要比一元函数难懂。例如，writeField(name)比 writeField(outputStream,name)[10]好懂。尽管两种情况下意义都很清楚，但第一个只要扫一眼就明白，更好地表达了其意义。第二个就得暂停一下才能明白，除非我们学会忽略第一个参数。而且最终那也会导致问题，因为我们根本就不该忽略任何代码。忽略掉的部分就是缺陷藏身之地。
+> 有两个参数的函数要比一元函数难懂。例如，writeField(name)比 writeField[outputStream,name](10)好懂。尽管两种情况下意义都很清楚，但第一个只要扫一眼就明白，更好地表达了其意义。第二个就得暂停一下才能明白，除非我们学会忽略第一个参数。而且最终那也会导致问题，因为我们根本就不该忽略任何代码。忽略掉的部分就是缺陷藏身之地。
 
 10. I just finished refactoring a module that used the dyadic form. I was able to make the outputStream a field of the class and convert all the writeField calls to the monadic form. The result was much cleaner.
 

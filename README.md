@@ -1,6 +1,6 @@
 # 《代码整洁之道》中文翻译
 
-在线阅读： https://cactus-proj.github.io/Clean-Code-zh/
+在线阅读： <https://cactus-proj.github.io/Clean-Code-zh/>
 
 
 ## 前言

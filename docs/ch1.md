@@ -198,7 +198,7 @@ Pragmatic Dave Thomas and Andy Hunt said this a different way. They used the met
 
 > 务实的 Dave Thomas 和 Andy Hunt 从另一角度阐述了这种情况。他们提到破窗理论[5]。窗户破损了的建筑让人觉得似乎无人照管。于是别人也再不关心。他们放任窗户继续破损。最终自己也参加破坏活动，在外墙上涂鸦，任垃圾堆积。一扇破损的窗户开辟了大厦走向倾颓的道路。
 
-3. http://www.pragmaticprogrammer.com/booksellers/2004-12.html
+3. <http://www.pragmaticprogrammer.com/booksellers/2004-12.html>
 
 Bjarne also mentions that error handing should be complete. This goes to the discipline of paying attention to details. Abbreviated error handling is just one way that programmers gloss over details. Memory leaks are another, race conditions still another. Inconsistent naming yet another. The upshot is that clean code exhibits close attention to detail.
 

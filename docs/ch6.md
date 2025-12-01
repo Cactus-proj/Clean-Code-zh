@@ -214,7 +214,7 @@ There is a well-known heuristic called the Law of Demeter2 that says a module sh
 
 > 著名的得墨忒耳律（The Law of Demeter）[2]认为，模块不应了解它所操作对象的内部情形。如上节所见，对象隐藏数据，曝露操作。这意味着对象不应通过存取器曝露其内部结构，因为这样更像是曝露而非隐藏其内部结构。
 
-2. http://en.wikipedia.org/wiki/Law_of_Demeter
+2. <http://en.wikipedia.org/wiki/Law_of_Demeter>
 
 More precisely, the Law of Demeter says that a method f of a class C should only call the methods of these:
 

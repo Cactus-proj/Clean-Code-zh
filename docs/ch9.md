@@ -29,7 +29,7 @@ By now everyone knows that TDD asks us to write unit tests first, before we writ
 
 1. Professionalism and Test-Driven Development, Robert C. Martin, Object Mentor, IEEE Software, May/June 2007 (Vol. 24, No. 3) pp. 32–36
 
-http://doi.ieeecomputersociety.org/10.1109/MS.2007.85
+<http://doi.ieeecomputersociety.org/10.1109/MS.2007.85>
 
 First Law You may not write production code until you have written a failing unit test.
 
@@ -185,7 +185,7 @@ public void testGetDataAsXml() throws Exception {
 ```
 The BUILD-OPERATE-CHECK2 pattern is made obvious by the structure of these tests. Each of the tests is clearly split into three parts. The first part builds up the test data, the second part operates on that test data, and the third part checks that the operation yielded the expected results.
 
-2. http://fitnesse.org/FitNesse.AcceptanceTestPatterns
+2. <http://fitnesse.org/FitNesse.AcceptanceTestPatterns>
 
 Notice that the vast majority of annoying detail has been eliminated. The tests get right to the point and use only the data types and functions that they truly need. Anyone who reads these tests should be able to work out what they do very quickly, without being misled or overwhelmed by details.
 
@@ -282,7 +282,7 @@ That is the nature of the dual standard. There are things that you might never d
 ONE ASSERT PER TEST
 There is a school of thought4 that says that every test function in a JUnit test should have one and only one assert statement. This rule may seem draconian, but the advantage can be seen in Listing 9-5. Those tests come to a single conclusion that is quick and easy to understand.
 
-4. See Dave Astel’s blog entry: http://www.artima.com/weblogs/viewpost.jsp?thread=35578
+4. See Dave Astel’s blog entry: <http://www.artima.com/weblogs/viewpost.jsp?thread=35578>
 
 But what about Listing 9-2? It seems unreasonable that we could somehow easily merge the assertion that the output is XML and that it contains certain substrings. However, we can break the test into two separate tests, each with its own particular assertion, as shown in Listing 9-7.
 

@@ -204,7 +204,7 @@ With N steps and T threads there are T* N total steps. Prior to each step there 
 
 One characteristic of these strings is that there must always be N instances of each T. So the string 111111 is invalid because it has six instances of 1 and zero instances of 2 and 3.
 
-So we want the permutations of N 1’s, N 2’s, … and N T’s. This is really just the permutations of N* T things taken N* T at a time, which is (N* T)!, but with all the duplicates removed. So the trick is to count the duplicates and subtract that from (N* T)!.
+So we want the permutations of N 1’s, N 2’s, … and N T’s. This is really just the permutations of N*T things taken N* T at a time, which is (N*T)!, but with all the duplicates removed. So the trick is to count the duplicates and subtract that from (N* T)!.
 
 Given two steps and two threads, how many duplicates are there? Each four-digit string has two 1s and two 2s. Each of those pairs could be swapped without changing the sense of the string. You could swap the 1s or the 2s both, or neither. So there are four isomorphs for each string, which means that there are three duplicates. So three out of four of the options are duplicates; alternatively one of four of the permutations are NOT duplicates. 4! * .25 = 6. So this reasoning seems to work.
 
@@ -794,7 +794,7 @@ Yet, even if you do all of these things, you still don’t stand a very good cha
 TOOL SUPPORT FOR TESTING THREAD-BASED CODE
 IBM has created a tool called ConTest.6 It instruments classes to make it more likely that non-thread-safe code fails.
 
-6. http://www.haifa.ibm.com/projects/verification/contest/index.html
+6. <http://www.haifa.ibm.com/projects/verification/contest/index.html>
 
 We do not have any direct relationship with IBM or the team that developed ConTest. A colleague of ours pointed us to it. We noticed vast improvement in our ability to find threading issues after a few minutes of using it.
 
